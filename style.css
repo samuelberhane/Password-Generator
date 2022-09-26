@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 1rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: rgb(138, 209, 165);
+}
+
+.password-container {
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  background-color: rgb(11, 84, 87);
+  color: #fff;
+}
+
+.password-header {
+  margin-bottom: 1rem;
+  background-color: rgb(11, 146, 170);
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3px;
+  gap: 1.3rem;
+  font-size: 18px;
+}
+
+.password-header .password-btn {
+  padding: 5px 0;
+}
+
+.password-btn button {
+  height: 100%;
+  width: 20px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#length {
+  width: 60px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+#generator {
+  width: 100%;
+  padding: 10px 1rem;
+  border: none;
+  background: blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+#password-result {
+  font-size: 14px;
+}
+
+.fa-regular {
+  scale: 0.9;
+}
+
+.fa-regular:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/2d6e7c2f27.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+    <div class="password-container">
+      <div class="password-header">
+        <div id="password-result"></div>
+        <div class="password-btn">
+          <button id="copy"><i class="fa-regular fa-copy"></i></button>
+        </div>
+      </div>
+      <div class="password-controls">
+        <label for="length"
+          >Password Length
+          <input id="length" type="number" min="6" max="40" />
+        </label>
+      </div>
+      <div class="password-controls">
+        <label for="upper"
+          >Contains Uppercase
+          <input id="upper" type="checkbox" />
+        </label>
+      </div>
+      <div class="password-controls">
+        <label for="lower"
+          >Contains Lowercase
+          <input id="lower" type="checkbox" />
+        </label>
+      </div>
+      <div class="password-controls">
+        <label for="number"
+          >Contains Number
+          <input id="number" type="checkbox" />
+        </label>
+      </div>
+      <div class="password-controls">
+        <label for="symbol"
+          >Contains Symbol
+          <input id="symbol" type="checkbox" />
+        </label>
+      </div>
+      <div class="generator-btn">
+        <button id="generator">Generate Password</button>
+      </div>
+    </div>
+  </body>
+</html>
